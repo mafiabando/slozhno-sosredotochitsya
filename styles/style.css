@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--background-image);
-  background-color: var(--background-color);  
+  background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--font-family);
   font-size: var(--font-size);
@@ -47,7 +47,7 @@
 
 .decorated-zone::after,
 .decorated-zone::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -78,7 +78,7 @@
 }
 
 .rec::before {
-  content: 'REC';
+  content: "REC";
   color: var(--accent-color);
   line-height: 24px;
 }
@@ -104,11 +104,11 @@
   gap: 12px;
   line-height: 18px;
   text-align: center;
-  font-family: "IBM Plex Mono"; 
+  font-family: "IBM Plex Mono";
 }
 
 .header__theme-menu-button {
-  color: var(--alt-color);   
+  color: var(--alt-color);
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.5px 12px;
@@ -130,7 +130,7 @@
 }
 
 .header__theme-menu-button_active {
-  border-color: inherit ;
+  border-color: inherit;
   cursor: default;
   pointer-events: none;
 }
@@ -186,7 +186,7 @@
 
 .link:focus-visible {
   outline: 1px solid var(--text-color);
-} 
+}
 
 .section-list {
   display: grid;
@@ -205,7 +205,7 @@
 
 .title-decor {
   background: var(--accent-color);
-  color: var(--text-decor-color)
+  color: var(--text-decor-color);
 }
 
 .footer {
@@ -226,7 +226,7 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
+
   .rec {
     right: 30px;
     top: 20px;
@@ -236,7 +236,7 @@
     right: 20px;
     top: 20px;
   }
-  
+
   .decorated-zone::before {
     left: 20px;
     bottom: 20px;
@@ -248,7 +248,7 @@
   }
 
   .main_section {
-    grid-template-columns: 236px 1fr;  
+    grid-template-columns: 236px 1fr;
   }
 
   .concentration_section-list {
@@ -276,7 +276,7 @@
   .gallery-list-item:last-child {
     grid-column: span 2;
   }
-  
+
   .gallery-list-item:nth-of-type(2) {
     grid-row: span 2;
   }
@@ -289,7 +289,7 @@
   .page__footer {
     padding: 20px;
   }
-  
+
   .header {
     padding-left: 0px;
   }
@@ -298,7 +298,7 @@
     justify-self: end;
     inline-size: clamp(364px, calc(100vw / 2 - 20px), 491px);
   }
-  
+
   .header__theme-menu {
     margin-block-start: 170px;
     margin-block-end: 70px;
@@ -310,9 +310,9 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
+
   .main_section {
-    grid-template-columns: 315px 1fr;  
+    grid-template-columns: 315px 1fr;
   }
 
   .gallery_section {
@@ -330,7 +330,7 @@
 
   .header__theme-menu {
     justify-self: center;
-    margin-block-start: 3.5px;    
+    margin-block-start: 3.5px;
   }
 
   .header__theme-menu-list {
