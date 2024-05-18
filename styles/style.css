@@ -46,8 +46,7 @@
 }
 
 .decorated-zone::after,
-.decorated-zone::before
- {
+.decorated-zone::before {
   content: '';
   position: absolute;
   width: 25px;
