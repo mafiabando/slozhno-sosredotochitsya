@@ -289,8 +289,6 @@
   .page__footer {
     padding: 20px;
   }
-
-
   
   .header {
     padding-left: 0px;
@@ -305,7 +303,6 @@
     margin-block-start: 170px;
     margin-block-end: 70px;
   }
-
 }
 
 @media (width >= 1024px) {
