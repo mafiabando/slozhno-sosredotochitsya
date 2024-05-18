@@ -9,4 +9,28 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --font-family: 'IBM Plex Mono', monospace;
+  --background-color: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --alt-color: #353430;
+  --title-color: #FFC2E6;
+  --text-color: #353430;
+  --text-decor-color: #353430;
+  --background-image: url(/images/cover-image-light.png);
+  --rec: hidden;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --font-family: 'IBM Plex Mono', monospace;
+  --background-color: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --alt-color: #353430;
+  --title-color: #FFC2E6;
+  --text-color: #353430;
+  --text-decor-color: #353430;
+  --background-image: url(/images/cover-image-light.png);
+  --rec: hidden;  
+  }
 }
