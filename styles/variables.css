@@ -4,12 +4,12 @@
 */
 
 :root {
-  --font-family: 'IBM Plex Mono', monospace;
+  --font-family: "IBM Plex Mono", monospace;
   --background-color: #000028;
-  --accent-color: #FF0070;
-  --alt-color: #FF0070;
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --alt-color: #ff0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
   --text-decor-color: #000028;
   --font-size: 18px;
   --line-height: 23.4px;
