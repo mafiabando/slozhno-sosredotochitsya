@@ -1,0 +1,1 @@
+git@github.com:mafiabando/slozhno-sosredotochitsya.git
