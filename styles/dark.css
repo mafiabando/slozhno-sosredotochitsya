@@ -12,9 +12,10 @@
   --background-color: #000028;
   --accent-color: #ff0070;
   --alt-color: #ff0070;
+  --border-color: #ff007040;
   --title-color: #db00ff;
   --text-color: #f1b2ce;
   --text-decor-color: #000028;
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   --rec: visible;
 }
